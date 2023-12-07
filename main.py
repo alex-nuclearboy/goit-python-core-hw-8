@@ -1,6 +1,6 @@
 """
 This module contains the function get_birthdays_per_week to calculate birthdays
-of users for this and the next week.
+of users for the upcoming week.
 """
 
 from datetime import date, datetime
@@ -8,7 +8,7 @@ from datetime import date, datetime
 
 def get_birthdays_per_week(users):
     """
-    Calculates the birthdays of users for this and the next week.
+    Calculates the birthdays of users for the upcoming week.
 
     Parameters:
     users (list): A list of users, where each user is a dictionary with 'name'
@@ -16,7 +16,7 @@ def get_birthdays_per_week(users):
 
     Returns:
     dict: A dictionary where keys are days of the week, and values are lists
-    of names of users whose birthday falls on that day of the week.
+    of names of users whose birthday are on that day of the week.
     """
 
     if not users:
