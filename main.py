@@ -31,7 +31,7 @@ def get_birthdays_per_week(users):
         birthday_this_year = user['birthday'].replace(year=today.year)
         birthday_next_year = user['birthday'].replace(year=today.year + 1)
 
-        # Determine whether the birthday is this week or next week
+        # Is the birthday this week or next
         birthday = None
         if birthday_this_year >= today:
             if (birthday_this_year - today).days <= 7:
