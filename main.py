@@ -66,7 +66,7 @@ def get_birthdays_per_week(users):
 
 if __name__ == "__main__":
     users_eg = [
-        {"name": "Jan Koum", "birthday": datetime(1976, 12, 7).date()},
+        {"name": "Jan Koum", "birthday": datetime(1976, 1, 27).date()},
         {"name": "Bill Gates", "birthday": datetime(1955, 12, 5).date()}]
 
     result = get_birthdays_per_week(users_eg)
